@@ -1,0 +1,52 @@
+think outloud when working on coding problems
+PREP
+
+ex:
+Fizz Buzz 
+Given a random number as an input to a function, return "FIZZ" if the number 
+is even and "BUZZ" if the number is odd
+
+Example Input: 1
+Example Output: 'BUZZ'
+Example Input: 1002
+Example Output: 'FIZZ'
+
+answer:
+# write function of random number
+def even_or_odd(num):
+# determine if number is even by dividing by 2
+  if num % 2 == 0:
+# return fizz if true
+    return 'fizz'
+# if false return buzz
+  else:
+    return 'buzz'
+
+print(even_or_odd(1002))
+
+ipynb= interactive python notebook
+open anaconda navigator
+click launch on Jupyter Notebook
+it will open a localhost
+
+jupyter notebook is a nice inbetween from vscode and cli
+in jynb you can run specific code instead of having to run all the code to get to one at the bottom
+or middle
+
+help
+keyboard shortcuts
+
+
+HOMEWORK:
+
+Exercise #1 and #2 in ipynb Monday_Lesson_Inclass_Lecture
+
+go to directory in week 2 day 1
+do a git init to create repository
+git add .
+git commit
+go to github get remote
+git remote add origin (url)
+git push -u origin main
+
+ 
